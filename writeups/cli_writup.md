@@ -51,11 +51,19 @@ to move: mv file.txt root/folder
 to rename: mv file.txt file1.txt
 
 echo: prints out what you do (i use it for fun and for testing)
+sudo: not in the version of the command line used on hstat sep site, but it bascially means administrator permission
 ```
 ## Challanges
-i didnt really have any challanges with the command line that i can think of, but the main problem i have is forgetting commands. for example it took me 20 minutes to realise that `~` meant go to `/root` and not `sudo` for some reason
+I didn't really have any challanges with the command line that I can think of, but the main problem I have is forgetting commands. for example it took me 20 minutes to realise that `~` meant go to `/root` and not `sudo` for some reason
+```
+~ mkdir e
+/root: Permission denied
+
+```
+
 
 ## takeaways
-the command line is an excellent way of doing things reliably and quickly, for example instead of going to open a folder to create a text file, you can just go `touch root/folder/subfolder txtfile.txt`
+The command line is an excellent way of doing things reliably and quickly, for example instead of going to open a folder to create a text file, you can just go `touch root/folder/subfolder txtfile.txt`
 
-`also when in doubt, type sudo rm -rf *`
+`Also when in doubt, type sudo rm -rf *` :)
+
